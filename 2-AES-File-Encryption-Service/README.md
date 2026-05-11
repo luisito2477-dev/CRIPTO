@@ -39,7 +39,7 @@ Utiliza la clase `Cipher` de Java en los siguientes modos:
 
 ## 🖥️ Guía de Uso
 
-1. **Ejecutar:** Inicia la aplicación desde `Practica2.java`.
+1. **Ejecutar:** Inicia la aplicación desde `Main.java`.
 2. **Para Cifrar (Encrypt):**
    - Selecciona un archivo `.txt`.
    - Ingresa una contraseña segura en el campo "LLAVE".
