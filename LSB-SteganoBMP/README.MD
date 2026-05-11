@@ -59,9 +59,9 @@ El software utiliza la técnica de **Bit Menos Significativo (LSB)**. Esta técn
 
 * `CifradoDescifrado.java`: Contiene la lógica matemática de manipulación de bits y flujo de archivos.
 * `InterfazGrafica.java`: Define la ventana de usuario y gestiona los eventos de los botones.
-* `Practica1.java`: Clase principal que inicializa la interfaz en el hilo de eventos de Swing.
+* `Main.java`: Clase principal que inicializa la interfaz en el hilo de eventos de Swing.
 
 ---
-> **Desarrollado por:** Luis Fernando Hernandez Perez 👨‍💻  
+> **Desarrollado por:** luisito2477-dev 
 > **Institución:** Escuela Superior de Cómputo (ESCOM) - IPN  
 > **Materia:** Introducción a la Criptografía
