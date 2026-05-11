@@ -16,11 +16,11 @@ Cada carpeta contiene su propio código fuente y documentación detallada:
 
 | Práctica | Nombre del Proyecto | Descripción Clave |
 | :--- | :--- | :--- |
-| **01** | [Vigenere-Cipher](./Practica01) | Cifrado polialfabético basado en una palabra clave. |
-| **02** | [Afin-Cipher](./Practica02) | Cifrado de sustitución monoalfabética usando aritmética modular. |
-| **03** | [DES-Symmetric-Encryptor](./Practica03) | Implementación del estándar DES (Data Encryption Standard). |
-| **04** | [RSA-File-Encryptor](./Practica04) | Cifrado asimétrico de 2048 bits con manejo de llaves PEM. |
-| **05** | [Modular-Matrix-Toolbox](./Practica05) | Calculadora de matrices inversas y productos en módulo $n$. |
+| **01** | [Vigenere-Cipher](./LSB-SteganoBMP) | Cifrado polialfabético basado en una palabra clave. |
+| **02** | [Afin-Cipher](./2-AES-File-Encryption-Service) | Cifrado de sustitución monoalfabética usando aritmética modular. |
+| **03** | [DES-Symmetric-Encryptor](./3-Affine-Cipher-Solver) | Implementación del estándar DES (Data Encryption Standard). |
+| **04** | [RSA-File-Encryptor](./4-RSA-File-Encryptor) | Cifrado asimétrico de 2048 bits con manejo de llaves PEM. |
+| **05** | [Modular-Matrix-Toolbox](./5-Modular-Matrix-Toolbox) | Calculadora de matrices inversas y productos en módulo $n$. |
 
 ---
 
