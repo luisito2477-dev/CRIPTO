@@ -10,7 +10,7 @@ package com.mycompany.practica1;
  */
 
 
-public class Practica1 {
+public class Main {
      
     public static void main(String[] args) {    
         java.awt.EventQueue.invokeLater(() -> {

@@ -65,7 +65,7 @@ public class InterfazGrafica extends javax.swing.JFrame {
         setBackground(new java.awt.Color(204, 153, 255));
 
         titulo.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        titulo.setText("PRACTICA 1 - Introduction to Cryptography");
+        titulo.setText("LSB-SteganoBMP");
 
         buttonShow.setBackground(new java.awt.Color(204, 153, 255));
         groupSeleccionModo.add(buttonShow);
@@ -153,7 +153,7 @@ public class InterfazGrafica extends javax.swing.JFrame {
                 .addContainerGap(28, Short.MAX_VALUE))
         );
 
-        Footer.setText("Luis Fernando Hernandez Perez - 6CM1");
+        Footer.setText("Made by luisito2477-dev");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -170,20 +170,19 @@ public class InterfazGrafica extends javax.swing.JFrame {
                                 .addComponent(panelShow, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                             .addComponent(buttonShow)))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(112, 112, 112)
-                        .addComponent(Footer)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addGap(0, 89, Short.MAX_VALUE)
-                .addComponent(titulo)
-                .addGap(87, 87, 87))
+                        .addGap(132, 132, 132)
+                        .addComponent(Footer))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(139, 139, 139)
+                        .addComponent(titulo)))
+                .addContainerGap(39, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(28, 28, 28)
+                .addGap(22, 22, 22)
                 .addComponent(titulo)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGap(18, 18, 18)
                 .addComponent(buttonHide)
                 .addGap(1, 1, 1)
                 .addComponent(panelHide, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -191,9 +190,9 @@ public class InterfazGrafica extends javax.swing.JFrame {
                 .addComponent(buttonShow)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(panelShow, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(Footer)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap())
         );
 
         pack();
