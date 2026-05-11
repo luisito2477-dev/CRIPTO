@@ -74,7 +74,7 @@ public class InterfazGrafica extends javax.swing.JFrame {
         setBackground(new java.awt.Color(204, 153, 255));
 
         titulo.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        titulo.setText("PRACTICA 4 - Equipo 5");
+        titulo.setText("4-RSA-File-Encryptor");
 
         buttonDecrypt.setBackground(new java.awt.Color(204, 153, 255));
         groupSeleccionModo.add(buttonDecrypt);
